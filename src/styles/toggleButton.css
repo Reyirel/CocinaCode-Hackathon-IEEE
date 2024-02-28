@@ -1,0 +1,17 @@
+.navbar-toggle-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.navbar-toggle-btn:hover {
+    color: #FFA500;
+    font-size: 28px;
+}

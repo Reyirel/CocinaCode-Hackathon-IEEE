@@ -1,0 +1,9 @@
+.top-recipes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-image: linear-gradient(to bottom, #ffa515, #ffad2f, #ffb442, #ffbc53, #ffc364, #ffc47f, #ffc699, #ffcbb0, #ffd4d2, #ffe2ed, #fcf2fb, #ffffff);}
+.top-recipes-container span{
+    color: rgb(255, 255, 255);
+}

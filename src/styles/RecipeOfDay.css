@@ -1,0 +1,53 @@
+.recipe-of-day-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    gap: 20px;
+}
+
+.recipe-of-day-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.recipe-of-day-image:hover img {
+    transform: scale(1.05);
+}
+
+.recipe-of-day-text {
+    flex: 1;
+    text-align: left;
+}
+
+.recipe-of-day-text h2,
+.recipe-of-day-text h3,
+.recipe-of-day-text p {
+    margin: 8px 0;
+}
+
+h2{
+    font-size: 90px;
+}
+button{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover{
+    background-color: #FFA500;
+}
